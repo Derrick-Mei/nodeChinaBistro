@@ -45,6 +45,7 @@ Table orders as O {
   took_payment int [ref: > employees.id]
   took_order int [ref: > employees.id]
   took_delivery int [ref: > employees.id]
+  table_num int
 }
 
 Table order_items as OI {
@@ -57,3 +58,8 @@ Table order_items as OI {
   modification_price int
   cooked boolean
 }
+
+
+
+
+https://dbdiagram.io/d/5ee880a69ea313663b3a9d11
